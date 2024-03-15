@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="529a33764770c210772523dbd36d4397" extends="sys_import_set_row" label="Imp Tmpl Sys App" max_length="40" name="u_imp_tmpl_sys_app" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=data" label="data" max_length="22092" name="u_data" type="string"/>
+        <element attributes="import_attribute_name=length" label="length" max_length="40" name="u_length" type="integer"/>
+        <element attributes="import_attribute_name=position" label="position" max_length="40" name="u_position" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_attachment/#text" label="sys_attachment/#text" max_length="40" name="u_sys_attachment__text" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_attachment/@_sys_id" label="sys_attachment/@_sys_id" max_length="40" name="u_sys_attachment___sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_attachment/@_display_value" label="sys_attachment/@_display_value" max_length="40" name="u_sys_attachme__display_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_by" label="sys_created_by" max_length="40" name="u_sys_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sys_created_on" label="sys_created_on" max_length="40" name="u_sys_created_on" type="string"/>
+        <element attributes="encode_utf8=false,import_attribute_name=sys_id" label="sys_id" max_length="32" name="u_sys_id" reference="sys_app" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=@_action" label="@_action" max_length="40" name="u___action" type="string"/>
+        <index name="index">
+            <element name="u_sys_id"/>
+        </index>
+    </element>
+</database>
