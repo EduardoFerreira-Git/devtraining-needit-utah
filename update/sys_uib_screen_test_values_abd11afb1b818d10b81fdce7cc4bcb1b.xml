@@ -2,12 +2,17 @@
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
     "029f04e053610110ac9bddeeff7b1294": {
-        "view": "workspace-to-do-workspace-0",
-        "detailsContext": null,
-        "activityLogs": null,
-        "screen": null,
-        "fields": null,
-        "userPrefs": null
+        "inputTable": "task",
+        "inputSysId": "43c74591b9943110d0adbb64e3a1e9b0",
+        "inputQuery": "",
+        "forcedViewName": "",
+        "detailsContext": "",
+        "activityLogs": "",
+        "inputExtraParams": "",
+        "fields": "",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
     }
 }</macroponent_config>
         <screen display_value="Sys Admin home">53d11afb1b818d10b81fdce7cc4bcb18</screen>
@@ -15,13 +20,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-21 15:00:22</sys_created_on>
         <sys_id>abd11afb1b818d10b81fdce7cc4bcb1b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_abd11afb1b818d10b81fdce7cc4bcb1b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-18 23:18:44</sys_updated_on>
+        <sys_updated_on>2024-04-23 19:53:15</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
